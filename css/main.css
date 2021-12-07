@@ -1,0 +1,226 @@
+#cards {
+  position: absolute;
+  width: 1049px;
+  height: 740px;
+  top: 580px;
+  left: 150px;
+  background-color: #fbfbfb;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#cards .top {
+  position: absolute;
+  width: 1050.5px;
+  top: 0px;
+  left: -1px;
+  background-color: #dc7711;
+  border: 2px solid #dc7711;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#cards .card-1 {
+  position: absolute;
+  width: 420px;
+  left: 75px;
+}
+
+.card-1 .card-img {
+  position: absolute;
+  width: 420px;
+  height: 270px;
+  object-fit: cover;
+  left: 0px;
+  top: 60px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  opacity: 0.8;
+}
+
+.card-1 .title {
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  width: 200px;
+  text-align: left;
+  color: black;
+}
+
+.card-1 .title:hover {
+  color: darkred;
+  font-size: 20px;
+}
+
+#cards .card-2 {
+  position: absolute;
+  width: 420px;
+  right: 75px;
+}
+
+.card-2 .card-img {
+  position: absolute;
+  width: 420px;
+  height: 270px;
+  object-fit: cover;
+  left: 0px;
+  top: 60px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card-2 .title {
+  position: absolute;
+  top: 270px;
+  right: 20px;
+  text-align: right;
+  color: black;
+}
+
+.card-2 .title:hover {
+  color: darkred;
+  font-size: 20px;
+}
+
+#cards .card-3 {
+  position: absolute;
+  width: 420px;
+  left: 75px;
+  top: 380px;
+}
+
+.card-3 .card-img {
+  position: absolute;
+  width: 420px;
+  height: 270px;
+  object-fit: cover;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  opacity: 0.7;
+}
+
+.card-3 .title {
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  width: 300px;
+  text-align: left;
+  color: black;
+}
+
+.card-3 .title:hover {
+  color: darkred;
+  font-size: 20px;
+}
+
+#cards .card-4 {
+  position: absolute;
+  width: 420px;
+  right: 75px;
+  top: 380px;
+}
+
+.card-4 .card-img {
+  position: absolute;
+  width: 420px;
+  height: 270px;
+  object-fit: cover;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card-4 .title {
+  position: absolute;
+  top: 210px;
+  right: 20px;
+  text-align: right;
+  color: white;
+}
+
+.card-4 .title:hover {
+  color: darkred;
+  font-size: 20px;
+}
+
+#cards .middle {
+  position: absolute;
+  width: 1050.5px;
+  top: 735px;
+  left: -1px;
+  background-color: #ce0052;
+  border: 2px solid #ce0052;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#papers {
+  position: absolute;
+  width: 1049px;
+  height: 735px;
+  top: 1316px;
+  left: 150px;
+  background-color: #fbfbfb;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#papers .paper-1 {
+  position: absolute;
+  top: 90px;
+  width: 400px;
+  left: 150px;
+  height: 300px;
+  background-color: #b8d8d8;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.paper-1-title {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.paper-1-text {
+  margin: 35px 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #66615b;
+}
+
+#papers .paper-2 {
+  position: absolute;
+  top: 350px;
+  width: 400px;
+  right: 140px;
+  height: 300px;
+  background-color: #d5e5a3;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.paper-2-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.paper-2-text {
+  margin: 25px 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #66615b;
+}
+
+#papers .bottom {
+  position: absolute;
+  width: 1050.5px;
+  top: 734px;
+  left: -1px;
+  background-color: #4a898a;
+  border: 2px solid #4a898a;
+  z-index: 1;
+  border-radius: 5px;
+}

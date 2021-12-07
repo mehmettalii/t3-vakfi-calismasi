@@ -1,0 +1,48 @@
+#footer {
+  position: absolute;
+  width: 1049px;
+  height: 400px;
+  top: 2050px;
+  left: 150px;
+  background-color: #fbfbfb;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#footer .volunteer {
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  left: 125px;
+  top: 50px;
+  border-radius: 8px;
+}
+
+.volunteer .volunteer-img {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.volunteer .volunteer-description {
+  position: absolute;
+  width: 490px;
+  top: 75px;
+  left: 340px;
+  text-align: center;
+}
+
+.volunteer-description .volunteer-text {
+  position: absolute;
+  font-size: 25px;
+  text-decoration: none;
+  transform: translateX(-50%);
+  top: 100px;
+}
+
+.volunteer-text:hover {
+  font-size: 30px;
+  color: red;
+}

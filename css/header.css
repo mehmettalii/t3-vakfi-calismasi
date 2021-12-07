@@ -1,0 +1,67 @@
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1349px;
+  height: 500px;
+}
+
+#header .child {
+  width: 1349px;
+  height: 600px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+#header .logo {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  height: 80px;
+}
+
+#header .navbar {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  width: 800px;
+}
+
+.navbar .navbar-items {
+  display: flex;
+  position: absolute;
+  list-style: none;
+}
+
+.navbar-items li {
+  margin: 0px 25px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.navbar-items li:hover {
+  background-color: chocolate;
+  border-radius: 5px;
+}
+
+.navbar-items li a {
+  text-decoration: none;
+  color: black;
+}
+
+#header .contact {
+  position: absolute;
+  left: 1310px;
+  top: 475px;
+}
+
+.contact .contact-items {
+  list-style: none;
+}
+
+.contact-items img {
+  width: 25px;
+  height: 25px;
+  opacity: 0.4;
+  cursor: pointer;
+}
