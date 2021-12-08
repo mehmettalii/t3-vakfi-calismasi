@@ -1,7 +1,7 @@
 #footer {
   position: absolute;
   width: 1049px;
-  height: 400px;
+  height: 300px;
   top: 2050px;
   left: 150px;
   background-color: #fbfbfb;
@@ -9,27 +9,29 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/* Be Volunteer */
+
 #footer .volunteer {
   position: absolute;
   width: 800px;
-  height: 300px;
-  left: 125px;
-  top: 50px;
+  height: 250px;
+  left: 115px;
+  top: 30px;
   border-radius: 8px;
 }
 
 .volunteer .volunteer-img {
   position: absolute;
   top: 25px;
-  left: 30px;
-  width: 250px;
+  left: 20px;
+  width: 200px;
   border-radius: 50%;
 }
 
 .volunteer .volunteer-description {
   position: absolute;
   width: 490px;
-  top: 75px;
+  top: 65px;
   left: 340px;
   text-align: center;
 }
@@ -39,10 +41,49 @@
   font-size: 25px;
   text-decoration: none;
   transform: translateX(-50%);
-  top: 100px;
+  top: 85px;
 }
 
 .volunteer-text:hover {
   font-size: 30px;
   color: red;
+}
+
+/* Contact Icons */
+
+#footer .contact-footer {
+  position: absolute;
+  left: 40px;
+  top: 330px;
+}
+
+.contact-footer .contact-footer-items {
+  display: flex;
+  list-style: none;
+}
+
+.contact-footer-items li {
+  margin-right: 10px;
+}
+
+.contact-footer-items img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* Logo and Turn Top */
+
+#footer .turn-top {
+  position: absolute;
+  top: 305px;
+  width: 1049px;
+}
+
+.turn-top img {
+  position: absolute;
+  width: 100px;
+  right: 25px;
+  padding-bottom: 5px;
+  cursor: pointer;
 }

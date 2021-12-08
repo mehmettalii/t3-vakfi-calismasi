@@ -1,3 +1,5 @@
+/* Cards */
+
 #cards {
   position: absolute;
   width: 1049px;
@@ -8,6 +10,8 @@
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+/* First Line */
 
 #cards .top {
   position: absolute;
@@ -146,6 +150,8 @@
   font-size: 20px;
 }
 
+/* Second Line */
+
 #cards .middle {
   position: absolute;
   width: 1050.5px;
@@ -156,6 +162,8 @@
   z-index: 1;
   border-radius: 5px;
 }
+
+/* Papers */
 
 #papers {
   position: absolute;
@@ -214,13 +222,15 @@
   color: #66615b;
 }
 
+/* Third Line */
+
 #papers .bottom {
   position: absolute;
   width: 1050.5px;
   top: 734px;
   left: -1px;
-  background-color: #4a898a;
-  border: 2px solid #4a898a;
+  background-color: #b92613;
+  border: 2px solid #b92613;
   z-index: 1;
   border-radius: 5px;
 }

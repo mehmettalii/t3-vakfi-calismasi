@@ -6,6 +6,8 @@
   height: 500px;
 }
 
+/* Background İmage */
+
 #header .child {
   width: 1349px;
   height: 600px;
@@ -13,23 +15,30 @@
   opacity: 0.6;
 }
 
+/* Logo */
+
 #header .logo {
   position: absolute;
-  top: 0px;
-  left: 20px;
+  top: 10px;
+  left: 40px;
   height: 80px;
 }
+
+/* Navbar */
+
 #header .navbar {
   position: absolute;
-  top: 15px;
-  left: 560px;
+  top: 25px;
+  left: 540px;
   margin: 0px;
   padding: 0px;
 }
+
 .navbar-items {
   display: flex;
   position: absolute;
   list-style: none;
+  text-align: center;
   margin: 0px;
   padding: 0px;
 }
@@ -44,14 +53,22 @@
   text-decoration: none;
 }
 
-.dropdown-menu li a:hover {
-  background-color: #dc7711;
-}
+/* Dropdown Menues */
 
 .about-dropdown {
   width: 150px;
   border: 1px solid rgb(211, 208, 208);
   border-top: 3px solid #dc7711;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #dc7711;
+}
+
+.about-dropdown {
+  display: none;
+  position: absolute;
+  text-align: center;
 }
 
 .about-dropdown li {
@@ -65,19 +82,15 @@
   padding: 6px 0px;
 }
 
-.about-dropdown {
-  display: none;
-  position: absolute;
-  left: -25px;
-  text-align: center;
-}
-
 .navbar-items li a:hover + .about-dropdown,
 .about-dropdown:hover {
   display: block;
 }
 
 .projects-dropdown {
+  display: none;
+  position: absolute;
+  left: 140px;
   width: 200px;
   border: 1px solid rgb(211, 208, 208);
   border-top: 3px solid #dc7711;
@@ -95,16 +108,20 @@
   padding: 6px 15px;
 }
 
-.projects-dropdown {
-  display: none;
-  position: absolute;
-  left: 116px;
-}
-
 .navbar-items li a:hover + .projects-dropdown,
 .projects-dropdown:hover {
   display: block;
 }
+
+.navbar-items .news:hover,
+.try-card:hover,
+.comminication:hover {
+  padding: 8px 8px;
+  background-color: #dc7711;
+  border-radius: 8px;
+}
+
+/* Contact Icons */
 
 #header .contact {
   position: absolute;
